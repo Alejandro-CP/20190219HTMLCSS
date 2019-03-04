@@ -1,0 +1,116 @@
+﻿/* Esto neutraliza los margenes y paddings por defecto de los navegadores ("*" es el selector universal, selecciona todo elemento)*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	margin-bottom: 1000px;
+}
+
+.articulo
+{
+	width: 250px;
+	/*height: 100px;*/
+	background-color: yellow;
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+.destacado
+{
+	color: red;
+	font-size: 18px;
+	/*peso/grosor de la fuente*/
+	font-weight: bold;
+}
+
+h1
+{
+	/* esto es el tamaño de la fuente */
+	font-size: 30px;
+	padding: 10px 5px 10px 5px;
+	
+}
+
+h2
+{
+	font-size: 20px;
+	padding: 10px 5px;
+}
+
+pre
+{
+	/*alineación del texto*/
+	text-align: left;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#cabecera
+{
+	width: 400px;
+	background-color: blue;
+	color: white;
+	display: inline-block;
+}
+
+#slogan
+{
+	width: 400px;
+	background-color: cyan;
+	display: inline-block;
+}
+
+nav
+{
+	padding: 20px;
+	background-color: silver;
+	border:1px solid black;
+	border-radius: 20px;
+}
+
+a
+{
+	/*decoración del texto*/
+	text-decoration: none;
+	color: #484848;
+}
+
+a:hover
+{
+	border-bottom: 1px dashed #484848;
+}
+
+a:active
+{
+	color: red;
+}
+
+a:visited
+{
+	color: black;
+}
+
+a:hover.sinDecoracion
+{
+	border-bottom: 0px;
+}
+
+ul, ol, dl, details
+{
+	margin-left: 25px;
+}
+
+dl dt
+{
+	font-weight: bold;
+}
+
+dl dd
+{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
